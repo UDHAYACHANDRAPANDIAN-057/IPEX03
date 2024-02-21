@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>connemora central library</title>
+</head>
+<body>
+    <nav class="navber navbar-expand-sm bg-dark scroll">
+        <a href="" class="navbar-brand">connemora</a>
+        <div>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="login.html" class="nav-link" target="_blank">Signup/Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header">
+        <div class="img-parent">
+            <div class="img">
+                <img src="img1.jpg" alt="">
+            </div>
+            <div class="img-overlay"></div>
+        </div>
+        <div class="description">
+            <h2>Description</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quisquam nobis iure aliquid cumque quo, expedita officia consectetur voluptatum! Maxime quasi perferendis esse consequuntur vero, numquam minima recusandae dolores. Dicta.</p>
+        </div>
+    </div>
+
+    <div class="container event">
+
+        <div class="row justify-content-center text-center">
+            <div class="col-sm-5">
+                <img src="img1.jpg" class="img-fluid" alt="">
+                <div class="event-cont">
+                    <h1>History Books</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fuga velit, perferendis quos doloribus dicta reprehenderit itaque distinctio quo a aut veritatis iure modi nobis accusantium asperiores quaerat aliquam officia.</p>
+                    <br>
+                </div>
+            </div>
+        
+            <div class="offset-sm-1 col-sm-5">
+                <img src="img2.jpg" class="img-fluid" alt="">
+                <div class="event-cont">
+                    <h1>Knowledge Books</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fuga velit, perferendis quos doloribus dicta reprehenderit itaque distinctio quo a aut veritatis iure modi nobis accusantium asperiores quaerat aliquam officia.</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+            <div class="col-sm-5">
+                <img src="img3.jpg" class="img-fluid" alt="">
+                <div class="event-cont">
+                    <h1>Adventure Books</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fuga velit, perferendis quos doloribus dicta reprehenderit itaque distinctio quo a aut veritatis iure modi nobis accusantium asperiores quaerat aliquam officia.</p>
+                    <br>
+                </div>
+            </div>
+        
+            <div class="offset-sm-1 col-sm-5">
+                <img src="img4.jpg" class="img-fluid" alt="">
+                <div class="event-cont">
+                    <h1>Romance Books</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam fuga velit, perferendis quos doloribus dicta reprehenderit itaque distinctio quo a aut veritatis iure modi nobis accusantium asperiores quaerat aliquam officia.</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="registration">
+        <div class="registration-form">
+            <form id="form-js">
+                <input type="text" id="Name" placeholder="Name"/><br/><br/>
+                <input type="text" id="phoneNumber" placeholder="phoneNumber"><br><br>
+                <input type="number" min="15" max="40" id="age" placeholder="age"><br/><br/>
+                <input type="text" id="email"  placeholder="E-mail"/><br/><br/>
+                <button value="submit" style="border: 1px solid black;border-radius: 10px;width: 150px;font-size: 30px;">Submit</button>
+            </form>
+        </div>
+        <button onclick="toggleForm()"><img src="img5.jpg" alt="" id="button-image"></button>
+                <script>
+                    function toggleForm(){
+                        console.log('hello');
+                        var divisionForm = document.getElementById('form-js');
+                        if(divisionForm.style.visibility == 'hidden'){
+                         divisionForm.style.visibility = 'visible';
+                        }
+                        else{
+                        divisionForm.style.visibility = 'hidden';
+                        }
+                    }
+                </script>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col-sm-2">
+                    <h6>About</h6>
+                    <span>Learn</span><br>
+                    <span>Login</span><br>
+                    <span>Result</span><br>
+                    <span>Does</span><br>
+                </div>
+                <div class="col-sm-2">
+                    <h6>Address</h6>
+                    <span>Learn</span><br>
+                    <span>Login</span><br>
+                    <span>Result</span><br>
+                    <span>Does</span><br>
+                </div>
+                <div class="col-sm-2">
+                    <h6>Resources</h6>
+                    <span>Learn</span><br>
+                    <span>Login</span><br>
+                    <span>Result</span><br>
+                    <span>Does</span><br>
+                </div>
+                <div class="col-sm-3">
+                    <h6>Subscribe</h6>
+                    <span>Subscribe for daily notifications</span>
+                    <input type="text" class="font-weight-bold form-control" placeholder="Enter your E-mail">
+                    <button type="submit" class="font-weight-bold float-lest" >Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+</body>
+</html>

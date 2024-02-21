@@ -1,0 +1,220 @@
+.navbar{
+    padding: 30px;
+    background-color: purple;
+}
+.navbar-scroll{
+    background-color: purple;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 500px;
+    font-size: 50px;
+    color: red;
+    text-transform: capitalize;
+}
+.navbar-nav{
+    padding-left: 1200px;
+}
+.nav-link{
+    font-weight: bold;
+    font-style: italic;
+    color: lime;
+    margin-left: 5px;
+    transform: 0.6s;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+.nav-link:hover{
+    transform: translateY(-20px);
+    color: red;
+}
+.header{
+    margin: 0;
+    padding: 0;
+}
+.header .img-parent{
+    position:relative;
+}
+.header .img{
+    height: 100vh;
+    width:100%;
+}
+.header .img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+    opacity: 0.4;
+}
+.header .description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+.header .description h2{
+    font-weight: bold;
+    font-style: italic;
+}
+.header .descriptionp{
+    font-weight: bold;
+    font-style: italic;
+}
+.event{
+    margin: 200px auto;
+}
+.event-cont{
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1) , inset 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    padding:10px;
+    cursor: pointer;
+    background: white;
+    margin-top: -70px;
+    margin-left: 20px;
+    position: absolute;
+}
+.event-cont h1{
+    font-weight: bold;
+    font-style: italic;
+}
+.event-cont p{
+    font-weight: bold;
+    font-style: italic;
+}
+.event-cont a{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.event img{
+    transition: 0.4s;
+}
+.event img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.event .col-sm-5{
+    margin-bottom: 300px;
+}
+.registration{
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.registration-form{
+    position: absolute;
+    top: 110px;
+    right: 20px;
+    height: 500px;
+    width: 500px;
+    border: 1px;
+    border-radius: 25px;
+}
+#form-js{
+    width: 100%;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    visibility: hidden;
+}
+#Name,#phoneNumber,#age,#email{
+    width: 175px;
+    height: 30px;
+    font-size: 20px;
+}
+footer{
+    margin: 200px auto;
+    background: darkslategrey;
+    padding: 150px;
+}
+footer h6{
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+    margin-bottom: 20px;
+}
+footer span{
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+}
+#button-image{
+    position: absolute;
+    left: 100px;
+    top: 110px;
+    height: 500px;
+    width: 500px;
+    border: 1px;
+    border-radius: 25px;
+    cursor: crosshair;
+}
+.button {
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .login {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: rgba(92, 199, 218, 0.678);
+  }
+  
+  .logging {
+    background-color: rgba(81, 231, 156, 0.795);
+  }
+  
+  .bg-img {
+    position: absolute;
+    width: 100%;
+    margin-top: -22px;
+    opacity: 0.4;
+    z-index: -2;
+  }
+  
+  .form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(196, 196, 196, 0.534);
+    border-radius: 20px;
+    transform: scale(0);
+    transition: visibility 0s, transform 0.3s ease;
+  }
+  
+  .close {
+    padding: 0;
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    max-width: 3rem !important;
+  }
+  
+  .close img {
+    width: 100%;
+  }
+  
+  .form-visible {
+    transform: scale(1);
+  }
+  
+  .form-close {
+    transform: scale(0);
+  }
+  .book-container.card{
+    height: 300px;
+    width: 300px;
+    border: 1px;
+  }

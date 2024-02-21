@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <button class="login button" onclick="login()">Login</button>
+
+    <div class="form">
+      <label>
+        Username:
+        <input type="text" />
+      </label>
+      <label>
+        Password:
+        <input type="text" />
+      </label>
+      <button class="button logging">Login</button>
+      <button class="close button" onclick="closeForm()">
+        <img src="img5.jpg" />
+      </button>
+    </div>
+
+    <div class="book-container">
+      <div class="card">
+        <img src="img1.jpg" class="book-img" />
+        <h4 class="book-title">History</h4>
+      </div>
+      <div class="card">
+        <img src="img2.jpg" class="book-img" />
+        <h4 class="book-title">Knowledge</h4>
+      </div>
+      <div class="card">
+        <img src="img3.jpg" class="book-img" />
+        <h4 class="book-title">Adventure</h4>
+      </div>
+      <div class="card">
+        <img src="img4.jpg" class="book-img" />
+        <h4 class="book-title">Romance</h4>
+      </div>
+    </div>
+    <script>
+      function login() {
+        let form = document.getElementsByClassName("form")[0];
+        form.className = "form form-visible";
+      }
+      function closeForm() {
+        let form = document.getElementsByClassName("form")[0];
+        form.className = "form form-close";
+      }
+    </script>
+</body>
